@@ -1,7 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-from base.views import taskList
 # Create your models here.
 
 
