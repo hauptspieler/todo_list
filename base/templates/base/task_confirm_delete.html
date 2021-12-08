@@ -1,0 +1,6 @@
+<a href="{% url 'tasks' %}">Voltar</a>
+<form method="POST">
+    {% csrf_token %}
+    <p>Tem certeza que deseja deletar esse task? {{task}}</p>
+    <input type="submit" type="Deletar" />
+</form>
